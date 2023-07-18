@@ -21,7 +21,7 @@ x = cancer.iloc[:,:10]
 y = cancer.Target
 
 # Split these data into training and testing datasets
-x_train, x_test, y_train, y_test = train_test_split(x,y, random_state=123)
+x_train, x_test, y_train, y_test = train_test_split(x,y, random_state=123) 
 
 print("\nMethod 1:\n")
 
@@ -46,7 +46,7 @@ print ("\nConfusion Matrix : \n", cm)
 
 # Accuracy score
 print('\nTest accuracy = ', accuracy_score(y_test, prediction_1))
-
+print("")
 
 print("\nMethod 2:\n")
 
